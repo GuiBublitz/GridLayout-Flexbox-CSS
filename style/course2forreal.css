@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #cacaca;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.item{
+    background-color: #ff0037;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+    flex-grow: 1;
+}
+.item-1{
+    flex-grow:2;
+}
