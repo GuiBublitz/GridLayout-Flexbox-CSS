@@ -58,7 +58,22 @@ h1{
     display: flex;
     flex-wrap: wrap;
 }
+hr{
+    margin: 50px 0 50px 0;
+    border: 5px solid black;
+}
 .flex > div{
     flex: 1 1 0px;
     margin: 30px 0 0 0;
+}
+
+/*CSS grid 1*/
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 980px;
+    grid-gap: 25px;
+    margin: auto;
+    
 }
