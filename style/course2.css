@@ -1,0 +1,18 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    justify-content: flex-start;
+    flex-wrap: wrap;    
+    
+}
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 1px solid black;
+    width:19.8%;
+    height: 150px;
+    max-width: 150px;
+}
